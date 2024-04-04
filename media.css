@@ -1,0 +1,124 @@
+@media only screen and (max-width: 768px) {
+    /* Header Section  */
+  .header .header_left {
+    position: absolute;
+    left: -0.5rem;
+    /* top: -2px; */
+  }
+
+.header .header_left input {
+  display: none;
+}
+.header .header_right {
+    font-size: 16px;
+    word-spacing: 5px;
+    margin-left: -14.62rem;
+    margin-top: -9.5px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+    gap: 58px;
+    border-right: 1px solid #66666654;
+    position: absolute;
+    left: 20rem;
+}
+.header .nav .header_right i{
+    font-size: 20px;
+}
+#same{
+    font-size: 0px;
+}
+.right {
+  display: none;
+}
+.footer {
+  display: none;
+}
+
+/* left Section  */
+.left{
+    width: 26%;
+    top: 3rem;
+}
+.left .main img {
+    width: 97px;
+    height: 94px;
+    border-radius: 100%;
+    position: absolute;
+    left: 3.3rem;
+    top: 2.3rem;
+}
+.left .main .user_name {
+    top: 9rem;
+    left: 2.5rem;
+    font-size: 1.2rem;
+}
+.left .main .about {
+    top: 10rem;
+    left: 0.3rem;
+    width: 82%;
+    align-content: center;
+}
+
+
+/* Main section  */
+.post {
+    top: -2rem;
+    left: -4rem;
+    height: 88px;
+    width: 433px;
+}
+.post input {
+    width: 384px;
+}
+.parent_post .sort {
+   width: 125%;
+    top: 6rem;
+    left: -3.5rem;
+    
+    
+}
+.parent_post .main_post {
+    width: 129%;
+    height: 870px;
+    top: 8rem;
+    left: -4rem;
+}
+.parent_post .main_post .second {
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #66666654;
+}
+.parent_post .main_post .user_parent img {
+    width: 50px;
+    height: 54px;
+}
+.parent_post .main_post .user_parent {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+parent_post .main_post .user_parent p {
+    line-height: 2px;
+    font-size: 0.7rem;
+}
+#AI {
+    width: 330%;
+    line-height: 16px;
+}
+#follow{
+    position: absolute;
+    left: 6rem;
+    margin-top: -44px;
+    
+}
+.parent_post .main_post .something {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 12px;
+}
+
+}
