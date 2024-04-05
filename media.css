@@ -63,10 +63,10 @@
 
 /* Main section  */
 .post {
-    top: -2rem;
+    top: -1rem;
     left: -4rem;
     height: 88px;
-    width: 433px;
+    width: 442px;
 }
 .post input {
     width: 384px;
@@ -75,8 +75,6 @@
    width: 125%;
     top: 6rem;
     left: -3.5rem;
-    
-    
 }
 .parent_post .main_post {
     width: 129%;
@@ -84,11 +82,23 @@
     top: 8rem;
     left: -4rem;
 }
+.parent_post .main_post .sugge {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0px 13px;
+    margin-left: -94px;
+}
+.sg {
+    position: absolute;
+    left: 12px;
+}
+   
 .parent_post .main_post .second {
     width: 100%;
     height: 800px;
     background-color: white;
-    margin-top: 20px;
+    margin-top: 55px;
     border-radius: 10px;
     border: 1px solid #66666654;
 }
@@ -120,5 +130,17 @@ parent_post .main_post .user_parent p {
     justify-content: space-around;
     margin-left: 12px;
 }
+.material-symbols-outlined {
+    margin-left: -47px;
+}
+.likesss{
+    margin-left: 6px;
+}
 
+.parent_post .main_post .like {
+    margin-left: 9px;
+}
+.parent_post .main_post .comm{
+    margin-left: 74px;
+}
 }

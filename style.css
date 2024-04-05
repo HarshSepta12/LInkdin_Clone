@@ -217,7 +217,7 @@ body{
 /* Main */
 .parent_post{
     width: 50%;
-    height: auto;
+    height: 90px;
     border-radius: 10px;
     border: 1px solid #66666654;
     background-color: white;
@@ -274,25 +274,27 @@ body{
     color: rgb(0, 0, 0);
     width: 80%;
 } */
-.parent_post .sort span{
-    position: relative;
-    left: -.1rem;
-    color: rgb(0, 0, 0);
-    width: 100%;
-    border-bottom: 1px solid black;
-}
-.parent_post .sort{
+.parent_post .post .sort {
     display: flex;
-    justify-content: space-around;
-    position:relative;
+    justify-content: space-evenly;
+    position: relative;
+    top: 22rem;
+}
+.hr {
+    position: absolute;
     top: 10rem;
-    left: -.5rem;
-    word-spacing: 5px;
-    /* justify-content: space-evenly; */
+    width: 80%;
 }
-.parent_post .sort .sortt{
-    margin-left: 120px;
+#sorting {
+    font-size: 16px;
+    position: absolute;
+    top: 10rem;
+    left: 33rem;
+    z-index: 1;
 }
+
+
+
 .parent_post .sort i{
     font-size: .9rem;
     margin-top: .2rem;
@@ -366,6 +368,7 @@ body{
 }
 
 
+
 .right{
     width: 270px;
     height: 390px;
@@ -411,14 +414,12 @@ body{
     margin-top: 0rem;
     
 }
-/* .footer_sticky{
-    position: sticky;
-    top: 10px;
-} */
 .footer{
     position: sticky;
-    top: 20px;
+    top: 100px;
+    
 }
+
 .right{
     position: relative;
 }
@@ -428,50 +429,55 @@ body{
     font-size: 14px;
     left: 43rem;
     width: 200px;
+    padding-top: 10px;
+    word-spacing: 5px;
+    line-height: 30px;
 }
 .footer .about .abo{
     margin-left: 5px;
+    line-height: 30px;
 }
 .footer .about1 {
     display: flex;
     justify-content: space-evenly;
-    /* padding: 10px; */
-    position: absolute;
     font-size: 14px;
-    left: 43rem;
-    top: 4rem;
+    margin-left: 43rem;
+    margin-top: 1rem;
     width: 200px;
+    word-spacing: 5px;
+    padding-top: 5px;
+    line-height: 30px;
     
 }
 .footer .about2 {
     display: flex;
     justify-content: space-evenly;
-    /* padding: 10px; */
-    position: absolute;
     font-size: 14px;
-    left: 43rem;
-    top: 6rem;
+    margin-left: 43rem;
+    margin-top: 1rem;
     width: 200px;
-    
+    padding-top: 5px;
+    word-spacing: 10px;
+    line-height: 30px;
 }
 .footer .about3 {
     display: flex;
     justify-content: space-evenly;
-    /* padding: 10px; */
-    position: absolute;
+    padding-top: 5px;
     font-size: 14px;
-    left: 8rem;
-    top: 34rem;
+    margin-left: 42rem;
+    margin-top: -.3rem;
     width: 200px;
+    word-spacing: 5px;
+    line-height: 30px;
     
 }
 .footer .logo_footer {
-   
-    position: absolute;
     font-size: 14px;
-    left: 43rem;
-    top: 8rem;
+    margin-left: 41rem;
+    margin-top: .3rem;
     width: 250px;
-    
+    padding-top: 5px;
+    word-spacing: 5px;
 }
 
